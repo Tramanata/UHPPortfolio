@@ -1,17 +1,18 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(27, 23, 23, 0.582),
+    rgba(39, 10, 16, 0.904)
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(22, 10, 11, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  /* --imp-text-color: #c770f0; */
+  --imp-text-color: #b31919;
 }
 
 .purple {
@@ -32,7 +33,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #130508;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -57,18 +58,22 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  /* background: #2d1950; */
+  /* background: #722a2a; */
+  background: #ffffff;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  /* background: rgba(178, 121, 216, 0.959); */
+  background: #c93a46;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  /* background: rgba(222, 130, 235, 0.911); */
+  background: #000000;
   border-radius: 12px;
 }
 
@@ -76,9 +81,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #36191ea9 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0px 10px 10px 0px rgba(29, 5, 6, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -97,7 +102,9 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  /* background-color: #be50f4 !important; */
+  background-color: #de616b !important;
+  
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -144,7 +151,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #6a1018 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -194,7 +201,8 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  /* background: #c95bf5; */
+  background: #de616b;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -257,7 +265,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: var(--image-gradient), url(./Assets/nc.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -281,17 +289,18 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #de616b;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  /* color: #be6adf !important; */
+  color: #de616b !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #de616b !important;
 }
 
 @media (max-width: 767px) {
@@ -371,7 +380,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #7a1818;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -379,13 +388,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #951f1f;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #9e2035;
+  box-shadow: 0 0 5px #9e2035;
+  text-shadow: 0 0 2px #9e2035;
 }
 
 .social-icons {
@@ -395,14 +404,14 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #9e2035 !important;
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgb(22, 4, 4);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -439,7 +448,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #de616b !important;
 }
 /* --------- */
 /* Projects */
